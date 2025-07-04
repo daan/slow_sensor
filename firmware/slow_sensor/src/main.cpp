@@ -22,9 +22,9 @@ void setup() {
 
 void loop() {
   digitalWrite(ledPin, HIGH);
-  delay(500);
+  delay(300);
   digitalWrite(ledPin, LOW);
-  delay(2000);
+  delay(300);
   // Serial.println("Blinking LED");
   // i2c_scanner();
   rtc_print_datetime();
